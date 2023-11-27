@@ -1,4 +1,4 @@
-import RyanGPT from "../assets/projects/RyanGPT.png";
+import RyanGPT from "../assets/projects/ryangpt.png";
 import CryptoHub from "../assets/projects/cryptohub.png";
 
 export const data = [
