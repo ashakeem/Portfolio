@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;700&family=Montserrat:ital,wght@0,600;1,500&family=Poppins:wght@300;400;500;600&family=Sofia+Sans+Semi+Condensed:ital,wght@0,400;1,300;1,400&family=Syne:wght@400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: "Poppins", sans-serif;
+  }
+
+  li,
+  .ayo {
+    @apply px-4;
+    @apply cursor-pointer;
+  }
+
+  li:hover {
+    color: #c54848;
+  }
+}
+
+.content-div {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+}
+
+.content-div:hover {
+  background-image: linear-gradient(
+    to right,
+    rgba(197, 72, 72, 1) 0%,
+    rgb(228, 69, 69) 2%
+  ) !important;
+}
