@@ -19,14 +19,14 @@ const Home = () => {
         </p>
 
         <div>
-          <button className="text-white border-2 px-6 py-3 my-2 flex items-center hover:bg-[#c54848] hover:border-[#c54848] ">
+          {/* <button className="text-white border-2 px-6 py-3 my-2 flex items-center hover:bg-[#c54848] hover:border-[#c54848] ">
             <a
               target="_blank"
               href="https://www.dropbox.com/scl/fi/bpru0wdbk3f1ag7gl8zt2/57AF31D7-A14A-44F6-A6CE-287A792D8002.pdf?rlkey=3sbksfn8yd8zxax71uqerz2w1&dl=0"
             >
               View Resume
             </a>
-          </button>
+          </button> */}
         </div>
       </div>
     </div>
