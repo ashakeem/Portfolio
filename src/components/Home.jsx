@@ -10,7 +10,7 @@ const Home = () => {
           Ayomide Hakeem,
         </h1>
         <h2 className="text-4xl sm:text-7xl font-bold text-[#8892b0]">
-          I'm a Computer Engineering Student at CalPoly Pomona.
+          I'm a full-stack Software Engineer.
         </h2>
         <p className=" text-[#8892b0] py-4 max-w-[700px]">
           I specialize in full-stack developement. Currently I'm focused on
