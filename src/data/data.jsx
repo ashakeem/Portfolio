@@ -11,9 +11,9 @@ export const data = [
   },
   {
     id: 2,
-    name: "Building Crypto Hub, a dynamic web application with React and React Router, to showcase real-time cryptocurrency data, offering users an effective platform for viewing and searching cryptocurrencies.",
+    name: " Crypto Hub is a dynamic web application with React and React Router, to showcase real-time cryptocurrency data, offering users an effective platform for viewing, tracking and searching cryptocurrencies.",
     image: CryptoHub,
-    github: "",
-    live: "",
+    github: "https://github.com/ashakeem/CryptoHub",
+    live: "https://cryptohub-51b56.web.app/",
   },
 ];
