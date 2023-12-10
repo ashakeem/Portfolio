@@ -1,19 +1,28 @@
 import RyanGPT from "../assets/projects/ryangpt.png";
 import CryptoHub from "../assets/projects/cryptohub.png";
+import ProdAI from "../assets/projects/productivityai.png";
 
 export const data = [
   {
     id: 1,
-    name: "Ryan GPT is an interactive Streamlit app powered by OpenAI's GPT-3 model, allowing users to ask questions, engage in discussions, or chat about any topic",
+    name: "RyanGPT is an interactive Python app powered by OpenAI's GPT-3 model and Streamlit, allowing users to ask questions, engage in discussions, or chat about any topic.",
     image: RyanGPT,
     github: "https://github.com/ashakeem/RyanGPT",
     live: "",
   },
   {
     id: 2,
-    name: " Crypto Hub is a dynamic web application with React and React Router, to showcase real-time cryptocurrency data, offering users an effective platform for viewing, tracking and searching cryptocurrencies.",
+    name: " CryptoHub is a dynamic React web app with Firebase integration for authentication and secure cryptocurrency storage. Experience real-time data, making it easy to view, track, and search cryptocurrencies.",
     image: CryptoHub,
     github: "https://github.com/ashakeem/CryptoHub",
     live: "https://cryptohub-51b56.web.app/",
+  },
+
+  {
+    id: 3,
+    name: "Currently Developing an Artificial Inteligence(AI) Productivity Application. (COMING SOON)",
+    image: ProdAI,
+    github: "",
+    live: "",
   },
 ];

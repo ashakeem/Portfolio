@@ -1,5 +1,4 @@
 import React from "react";
-import { HiOutlineMail } from "react-icons/hi";
 
 const Contact = () => {
   return (

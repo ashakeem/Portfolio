@@ -6,6 +6,7 @@ import JavaScript from "../assets/javascript.png";
 import ReactImg from "../assets/react.png";
 import Node from "../assets/node.png";
 import Next from "../assets/next.png";
+import TypeScript from "../assets/typescript.png";
 
 import GitHub from "../assets/github.png";
 import Tailwind from "../assets/tailwind.png";
@@ -22,8 +23,8 @@ const Skills = () => {
           </p>
           <p className="py-4">
             {" "}
-            These are the programming languanges and technologies I've worked
-            with!
+            These are the programming languanges and technologies I'm
+            experienced with!
           </p>
         </div>
 
@@ -41,12 +42,16 @@ const Skills = () => {
             <p className="my-4">JAVASCRIPT</p>
           </div>
           <div className="shadow-md shadow-[#161b22] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={TypeScript} alt="HTML icon" />
+            <p className="my-4">TYPESCRIPT</p>
+          </div>
+          <div className="shadow-md shadow-[#161b22] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={ReactImg} alt="HTML icon" />
             <p className="my-4">REACT</p>
           </div>
           <div className="shadow-md shadow-[#161b22] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={Next} alt="HTML icon" />
-            <p className="my-4">NEXT</p>
+            <p className="my-4">NEXT JS</p>
           </div>
           <div className="shadow-md shadow-[#161b22] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={GitHub} alt="HTML icon" />
