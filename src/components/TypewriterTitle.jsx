@@ -6,7 +6,7 @@ const TypewriterTitle = () => {
     <TypewriterComponent
       options={{
         loop: true,
-        delay: 50,
+        delay: 55,
       }}
       onInit={(typewriter) => {
         typewriter
