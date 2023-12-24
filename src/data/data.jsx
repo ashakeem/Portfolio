@@ -20,9 +20,9 @@ export const data = [
 
   {
     id: 3,
-    name: "Currently Developing an Artificial Inteligence(AI) Productivity Application. (COMING SOON)",
+    name: "Currently Developing an Artificial Inteligence(AI) Productivity Application. ",
     image: ProdAI,
     github: "",
-    live: "",
+    live: "https://productivity-ai.vercel.app/",
   },
 ];
