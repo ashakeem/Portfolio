@@ -9,6 +9,7 @@ export const data = [
     image: ProdAI,
     github: "",
     live: "https://productivity-ai.vercel.app/",
+    demo: "",
   },
 
   
@@ -18,14 +19,16 @@ export const data = [
     image: CryptoHub,
     github: "https://github.com/ashakeem/CryptoHub",
     live: "https://cryptohub-51b56.web.app/",
+    demo: "",
   },
-  
+
   {
     id: 3,
     name: "RyanGPT is an interactive Python app powered by OpenAI's GPT-3 model and Streamlit, allowing users to ask questions, engage in discussions, or chat about any topic.",
     image: RyanGPT,
     github: "https://github.com/ashakeem/RyanGPT",
     live: "",
+    demo: "",
   },
  
 ];
