@@ -54,12 +54,12 @@ const Projects = () => {
                             item.live === "" ? "hidden" : ""
                           }`}
                       >
-                        Live
+                        Live Website
                       </button>
                     </a>
                   )}
-                   {/* Demo Button */}
-                   {item.demo && (
+                  {/* Demo Button */}
+                  {item.demo && (
                     <a href={item.demo} target="_blank">
                       <button
                         className={`text-center rounded-lg px-4 py-3 m-2 
