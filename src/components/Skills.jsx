@@ -50,6 +50,10 @@ const Skills = () => {
             <p className="my-4">REACT</p>
           </div>
           <div className="shadow-md shadow-[#161b22] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={Tailwind} alt="HTML icon" />
+            <p className="my-4">TAILWIND</p>
+          </div>
+          <div className="shadow-md shadow-[#161b22] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={Next} alt="HTML icon" />
             <p className="my-4">NEXT.js</p>
           </div>
@@ -58,10 +62,7 @@ const Skills = () => {
             <img className="w-20 mx-auto" src={Node} alt="HTML icon" />
             <p className="my-4">NODE JS</p>
           </div>
-          <div className="shadow-md shadow-[#161b22] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Tailwind} alt="HTML icon" />
-            <p className="my-4">TAILWIND</p>
-          </div>
+         
           <div className="shadow-md shadow-[#161b22] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={Mongo} alt="HTML icon" />
             <p className="my-4">MONGO DB</p>
