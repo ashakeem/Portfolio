@@ -1,11 +1,11 @@
 import Portfolio from "../assets/projects/PortFolio.png";
-import CryptoHub from "../assets/projects/cryptohub.png";
 import ProdAI from "../assets/projects/productivityai.png";
+import Lexy from "../assets/projects/lexy.png";
 
 export const data = [
   {
     id: 1,
-    name: "Productivity AI. Currently Developing an Artificial Inteligence Productivity Application. ",
+    name: "Productivity AI. Currently Developing an Artificial Intelligence Productivity Application. ",
     image: ProdAI,
     github: "",
     live: "https://productivity-ai.vercel.app/",
@@ -14,13 +14,12 @@ export const data = [
 
   {
     id: 2,
-    name: " CryptoHub. Search, Track, and Save Cryptocurrencies.",
-    image: CryptoHub,
+    name: "Lexy.ai, Currently Developing an Artificial Intelligence Study Tool. ",
+    image: Lexy,
     github: "",
-    live: "https://cryptohub-51b56.web.app/",
+    live: "",
     demo: "",
   },
-
   {
     id: 3,
     name: "My Personal Portfolio Website",

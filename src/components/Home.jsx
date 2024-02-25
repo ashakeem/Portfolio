@@ -23,9 +23,9 @@ const Home = () => {
         </h2>
 
         <p className=" text-[#8892b0] py-4 max-w-[700px]">
-          I specialize in full-stack developement. Currently I'm focused on
-          Integrating Artificial Intelligence into responsive full-stack web
-          applications.
+          I specialize in full-stack development, emphasizing unique and
+          minimalistic design!. Currently I'm focused on Integrating Artificial
+          Intelligence into full-stack web applications.
         </p>
 
         <div className="flex flex-row ">
