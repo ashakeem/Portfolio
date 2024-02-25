@@ -8,6 +8,7 @@ import AWS from "../assets/aws.png";
 import GitHub from "../assets/github.png";
 import Tailwind from "../assets/tailwind.png";
 import SPRING from "../assets/spring.png";
+import ReactImg from "../assets/react.png";
 
 const Skills = () => {
   return (
@@ -35,8 +36,12 @@ const Skills = () => {
             <p className="my-4">JAVA</p>
           </div>
           <div className="shadow-md shadow-[#161b22] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={ReactImg} alt="HTML icon" />
+            <p className="my-4">REACT</p>
+          </div>
+          <div className="shadow-md shadow-[#161b22] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={Next} alt="HTML icon" />
-            <p className="my-4">NEXT.js</p>
+            <p className="my-4">NEXT</p>
           </div>
 
           <div className="shadow-md shadow-[#161b22] hover:scale-110 duration-500">
