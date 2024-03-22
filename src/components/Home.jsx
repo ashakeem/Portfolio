@@ -55,15 +55,14 @@ const Home = () => {
               <FaGithub size={20} />
             </a>
           </button>
-          <button className="text-white border-2 px-4 py-2 my-2 flex items-center  hover:bg-[#c54848] hover:bg-transparent duration-300 bg-[#461111]">
-            <a
-              className="flex justify-between items-center w-full text-gray-300 "
-              target="_blank"
-              href="mailto:emailayomidesuleimanh@gmail.com"
-            >
-              <span className="hidden lg:flex mr-[8px] text-[20px]">Email</span>
-              <HiOutlineMail size={20} />
-            </a>
+          <button
+            className="text-white border-2 px-4 py-2 my-2 flex items-center  hover:bg-[#c54848] hover:bg-transparent duration-300 bg-[#461111]"
+            onClick={() => {
+              window.open("mailto:emailayomidesuleimanh@gmail.com");
+            }}
+          >
+            <span className="hidden lg:flex mr-[8px] text-[20px]">Email</span>
+            <HiOutlineMail size={20} />
           </button>
         </div>
       </div>

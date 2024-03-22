@@ -1,6 +1,7 @@
 import Portfolio from "../assets/projects/PortFolio.png";
 import ProdAI from "../assets/projects/productivityai.png";
 import Lexy from "../assets/projects/lexy.png";
+import CreatorKit from "../assets/projects/creatorkit.png";
 
 export const data = [
   {
@@ -20,8 +21,17 @@ export const data = [
     live: "",
     demo: "",
   },
+
   {
     id: 3,
+    name: "AI Youtube Content Generator, Currently Developing an Artificial Intelligence Youtube Content Generator.",
+    image: CreatorKit,
+    github: "",
+    live: "",
+    demo: "https://youtu.be/qTs7rYSiSjc",
+  },
+  {
+    id: 4,
     name: "My Personal Portfolio Website",
     image: Portfolio,
     github: "",

@@ -14,7 +14,7 @@ const About = () => {
           <div></div>
         </div>
 
-        <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
+        <div className="max-w-[1000px] items-center w-full grid sm:grid-cols-2 gap-8 px-4">
           <div className="flex items-center sm:items-end text-4xl font-bold">
             <img
               src={Profile}
@@ -22,13 +22,10 @@ const About = () => {
               className=" w-2/3 rounded-full mx-auto"
             />
           </div>
-          <div className="sm:text-left sm:text-1xl lg:text-3xl font-bold">
+          <div className="sm:text-left sm:text-1xl lg:text-3xl font-bold ">
             <p>
-              Raised in Nigeria, currently a sophomore at California State
-              Polytechnic University, Pomona. I love coding, and my projects
-              reflect my journey and passion for it. I'm all about learning and
-              embracing diversity. Check out my digital space where curiosity
-              meets code!
+              Raised in Nigeria, currently a sophomore majoring in Computer Engineering at California State
+              Polytechnic University, Pomona. <span className="text-[#c54848]">Welcome to my digital space!</span>
             </p>
           </div>
         </div>
