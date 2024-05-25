@@ -24,7 +24,7 @@ const About = () => {
           </div>
           <div className="sm:text-left sm:text-1xl lg:text-3xl font-bold ">
             <p>
-              Raised in Nigeria, currently a sophomore majoring in Computer Engineering at California State
+              Raised in Nigeria, currently a junior majoring in Computer Engineering at California State
               Polytechnic University, Pomona. <span className="text-[#c54848]">Welcome to my digital space!</span>
             </p>
           </div>
