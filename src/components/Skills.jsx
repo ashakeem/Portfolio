@@ -9,6 +9,7 @@ import GitHub from "../assets/github.png";
 import Tailwind from "../assets/tailwind.png";
 import Python from "../assets/python.png";
 import ReactImg from "../assets/react.png";
+import Postgres from "../assets/postgres.png";
 
 const Skills = () => {
   return (
@@ -54,7 +55,11 @@ const Skills = () => {
             <p className="my-4">NODE JS</p>
           </div>
 
-        
+          <div className="shadow-md shadow-[#161b22] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={Postgres} alt="HTML icon" />
+            <p className="my-4">POSTGRES</p>
+          </div>
+
 
           <div className="shadow-md shadow-[#161b22] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={AWS} alt="HTML icon" />
