@@ -14,7 +14,7 @@ const TypewriterTitle = () => {
             .typeString("I'm a Computer Engineering Student.")
             .pauseFor(1500)
             .deleteAll()
-            .typeString("I'm a Software Engineer.")
+            .typeString("I'm Currently Interning at Capital One.")
             .pauseFor(1500)
             .deleteAll()
             .start();
