@@ -1,4 +1,4 @@
-import Portfolio from "../assets/projects/PortFolio.png";
+// import Portfolio from "../assets/projects/PortFolio.png";
 import ProdAI from "../assets/projects/productivityai.png";
 import Lexy from "../assets/projects/lexy.png";
 import ExerciseCounter from "../assets/exercise-counter.png";
@@ -42,13 +42,13 @@ export const data = [
     demo: "",
   },
   
-  {
-    id: 5,
-    name: "My Personal Portfolio Website",
-    image: Portfolio,
-    github: "",
-    live: "https://ayomidehakeem.dev",
-    demo: "",
-  },
+  // {
+  //   id: 5,
+  //   name: "My Personal Portfolio Website",
+  //   image: Portfolio,
+  //   github: "",
+  //   live: "https://ayomidehakeem.dev",
+  //   demo: "",
+  // },
 
 ];

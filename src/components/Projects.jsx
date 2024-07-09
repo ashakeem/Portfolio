@@ -1,4 +1,4 @@
-import React from "react";
+
 import { data } from "../data/data.jsx";
 
 // ... (imports)
@@ -33,7 +33,7 @@ const Projects = () => {
                 <div className="pt-8 text-center">
                   {/* Code Button */}
                   {item.github && (
-                    <a href={item.github} target="_blank">
+                    <a href={item.github} target="_blank" rel="noreferrer">
                       <button
                         className={`text-center rounded-lg px-4 py-3 m-2 
                           bg-white text-gray-700 font-bold text-lg ${
@@ -47,7 +47,7 @@ const Projects = () => {
 
                   {/* Live Button */}
                   {item.live && (
-                    <a href={item.live} target="_blank">
+                    <a href={item.live} target="_blank" rel="noreferrer">
                       <button
                         className={`text-center rounded-lg px-4 py-3 m-2 
                           bg-white text-gray-700 font-bold text-lg ${
@@ -60,7 +60,7 @@ const Projects = () => {
                   )}
                   {/* Demo Button */}
                   {item.demo && (
-                    <a href={item.demo} target="_blank">
+                    <a href={item.demo} target="_blank" rel="noreferrer">
                       <button
                         className={`text-center rounded-lg px-4 py-3 m-2 
                           bg-white text-gray-700 font-bold text-lg ${
