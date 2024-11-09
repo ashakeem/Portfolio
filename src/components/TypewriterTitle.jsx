@@ -1,4 +1,3 @@
-import React from "react";
 import TypewriterComponent from "typewriter-effect";
 
 const TypewriterTitle = () => {
@@ -7,14 +6,17 @@ const TypewriterTitle = () => {
       <TypewriterComponent
         options={{
           loop: true,
-          delay: 55,
+          delay: 18,
         }}
         onInit={(typewriter) => {
           typewriter
-            .typeString("I'm a Computer Engineering Student.")
+            // .typeString("I'm a Computer Engineering Student.")
+            // .pauseFor(1500)
+            .deleteAll()
+            .typeString("Previous intern at Capital One.")
             .pauseFor(1500)
             .deleteAll()
-            .typeString("I'm Currently Interning at Capital One.")
+            .typeString("Current intern at Atlassian and Amazon.")
             .pauseFor(1500)
             .deleteAll()
             .start();

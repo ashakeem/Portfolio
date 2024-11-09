@@ -1,15 +1,12 @@
-import React from "react";
 
-import Java from "../assets/java.png";
 import Node from "../assets/node.png";
-import Next from "../assets/next.png";
-import TypeScript from "../assets/typescript.png";
 import AWS from "../assets/aws.png";
 import GitHub from "../assets/github.png";
 import Tailwind from "../assets/tailwind.png";
 import Python from "../assets/python.png";
 import ReactImg from "../assets/react.png";
 import Postgres from "../assets/postgres.png";
+import Javascript from "../assets/javascript.png"
 
 const Skills = () => {
   return (
@@ -28,22 +25,26 @@ const Skills = () => {
         </div>
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
-          <div className="shadow-md shadow-[#161b22] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={TypeScript} alt="HTML icon" />
-            <p className="my-4">TYPESCRIPT</p>
-          </div>
-          <div className="shadow-md shadow-[#161b22] hover:scale-110 duration-500">
+        <div className="shadow-md shadow-[#161b22] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={Python} alt="HTML icon" />
-            <p className="my-4">Python</p>
+            <p className="my-4">PYTHON</p>
           </div>
+          <div className="shadow-md shadow-[#161b22] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={Javascript} alt="HTML icon" />
+            <p className="my-4">JAVASCRIPT</p>
+          </div>
+
+       
+
           <div className="shadow-md shadow-[#161b22] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={ReactImg} alt="HTML icon" />
             <p className="my-4">REACT</p>
           </div>
-          <div className="shadow-md shadow-[#161b22] hover:scale-110 duration-500">
+
+          {/* <div className="shadow-md shadow-[#161b22] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={Next} alt="HTML icon" />
             <p className="my-4">NEXT</p>
-          </div>
+          </div> */}
 
           <div className="shadow-md shadow-[#161b22] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={Tailwind} alt="HTML icon" />
