@@ -9,9 +9,9 @@ const NavBar = () => {
   const handleClick = () => setNav(!Nav);
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#3D0000] text-gray-300">
+    <div className="fixed w-full z-50 h-[80px] flex justify-between items-center px-4 bg-[#3D0000] text-gray-300">
       <div>
-        <h1 className="ayo text-2xl font-bold">
+        <h1 className=" text-2xl font-bold">
           <Link to="homepage" smooth={true} duration={500}>
             <span className=" text-[#c54848]">A</span>yomide
           </Link>
@@ -34,6 +34,11 @@ const NavBar = () => {
         <li>
           <Link to="skills" smooth={true} duration={500}>
             Skills
+          </Link>
+        </li>
+        <li>
+          <Link to="experience" smooth={true} duration={500}>
+            Experience
           </Link>
         </li>
         <li>
@@ -87,6 +92,17 @@ const NavBar = () => {
               duration={500}
             >
               Skills
+            </Link>
+          </li>
+          <li className="py-6 text-4xl">
+            {" "}
+            <Link
+              onClick={handleClick}
+              to="experience"
+              smooth={true}
+              duration={500}
+            >
+              Experience
             </Link>
           </li>
           <li className="py-6 text-4xl">

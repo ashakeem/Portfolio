@@ -10,13 +10,7 @@ const TypewriterTitle = () => {
         }}
         onInit={(typewriter) => {
           typewriter
-            // .typeString("I'm a Computer Engineering Student.")
-            // .pauseFor(1500)
-            .deleteAll()
-            .typeString("Previous intern at Capital One.")
-            .pauseFor(1500)
-            .deleteAll()
-            .typeString("Current intern at Atlassian and Amazon.")
+            .typeString("I'm a Computer Engineering Student.")
             .pauseFor(1500)
             .deleteAll()
             .start();

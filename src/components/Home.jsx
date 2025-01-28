@@ -32,7 +32,7 @@ const Home = () => {
             <a
               className="flex justify-between items-center w-full text-gray-300"
               target="_blank"
-              href="https://www.linkedin.com/in/ayomidehakeem/"
+              href="https://www.linkedin.com/in/ayomidehakeem/" rel="noreferrer"
             >
               {" "}
               <span className="hidden lg:flex mr-[8px] text-[20px]">
@@ -45,7 +45,7 @@ const Home = () => {
             <a
               className="flex justify-between items-center w-full text-gray-300"
               target="_blank"
-              href="https://github.com/ashakeem"
+              href="https://github.com/ashakeem" rel="noreferrer"
             >
               {" "}
               <span className="hidden lg:flex mr-[8px] text-[20px]">
