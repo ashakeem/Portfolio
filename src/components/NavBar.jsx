@@ -9,7 +9,7 @@ const NavBar = () => {
   const handleClick = () => setNav(!Nav);
 
   return (
-    <div className="fixed w-full z-50 h-[80px] flex justify-between items-center px-4 bg-[#3D0000] text-gray-300">
+    <div className="fixed w-full  h-[80px] flex justify-between items-center px-4 bg-[#3D0000] text-gray-300">
       <div>
         <h1 className=" text-2xl font-bold">
           <Link to="homepage" smooth={true} duration={500}>
@@ -36,21 +36,13 @@ const NavBar = () => {
             Skills
           </Link>
         </li>
-        <li>
-          <Link to="experience" smooth={true} duration={500}>
-            Experience
-          </Link>
-        </li>
+       
         <li>
           <Link to="projects" smooth={true} duration={500}>
             Projects
           </Link>
         </li>
-        <li>
-          <Link to="contact" smooth={true} duration={500}>
-            Contact
-          </Link>
-        </li>
+       
       </ul>
 
       {/* Hamburger Menu */}
@@ -94,17 +86,7 @@ const NavBar = () => {
               Skills
             </Link>
           </li>
-          <li className="py-6 text-4xl">
-            {" "}
-            <Link
-              onClick={handleClick}
-              to="experience"
-              smooth={true}
-              duration={500}
-            >
-              Experience
-            </Link>
-          </li>
+         
           <li className="py-6 text-4xl">
             {" "}
             <Link
@@ -116,17 +98,7 @@ const NavBar = () => {
               Projects
             </Link>
           </li>
-          <li className="py-6 text-4xl">
-            {" "}
-            <Link
-              onClick={handleClick}
-              to="contact"
-              smooth={true}
-              duration={500}
-            >
-              Contact
-            </Link>
-          </li>
+         
         </ul>
       </ul>
     </div>
