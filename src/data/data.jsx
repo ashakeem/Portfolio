@@ -1,7 +1,6 @@
 // import Portfolio from "../assets/projects/PortFolio.png";
 import ProdAI from "../assets/projects/productivityai.png";
-import Lexy from "../assets/projects/lexy.png";
-import ExerciseCounter from "../assets/projects/exercise-counter.png";
+import ExerciseCounter from "../assets/projects/exercise.png";
 import MaxxedAI from "../assets/projects/maxxedai.png";
 import FirstYear from "../assets/projects/firstyear.png";
 import ContentBuddy from "../assets/projects/contentbuddy.png";
