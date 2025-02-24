@@ -1,36 +1,80 @@
-@import url("https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;700&family=Montserrat:ital,wght@0,600;1,500&family=Poppins:wght@300;400;500;600&family=Sofia+Sans+Semi+Condensed:ital,wght@0,400;1,300;1,400&family=Syne:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
+  html {
+    @apply bg-black scroll-smooth;
+  }
+  
   body {
-    font-family: "Poppins", sans-serif;
+    @apply bg-black text-gray-300 font-[Poppins] overflow-x-hidden;
+    -webkit-tap-highlight-color: transparent;
   }
 
-  li,
-  .ayo {
-    @apply px-4;
-    @apply cursor-pointer;
+  li {
+    @apply px-4 cursor-pointer;
   }
 
   li:hover {
-    color: #c54848;
+    @apply text-primary transition-colors duration-300;
   }
 }
 
+/* Improve mobile tap targets */
+@media (max-width: 768px) {
+  li {
+    @apply py-3;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-dark-200;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-primary/50 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-primary;
+}
+
+/* Smooth transitions */
 .content-div {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 250px;
+  @apply transition-all duration-300;
 }
 
 .content-div:hover {
   background-image: linear-gradient(
     to right,
-    rgba(197, 72, 72, 1) 0%,
-    rgb(228, 69, 69) 2%
+    rgba(197, 72, 72, 0.8),
+    rgba(197, 72, 72, 0.8)
   ) !important;
+}
+
+/* Mobile optimizations */
+@media (max-width: 640px) {
+  h1 {
+    @apply text-3xl;
+  }
+  
+  h2 {
+    @apply text-2xl;
+  }
+  
+  .content-div {
+    height: 200px;
+  }
 }
