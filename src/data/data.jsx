@@ -4,8 +4,7 @@ export const data = [
     name: "AI Exercise Repetition Counter",
     image: "/exercise.png",
     github: "https://github.com/ashakeem/AI_Exercise_Rep_Counter",
-    live: "",
-    demo: "https://www.loom.com/share/6201f097125148608c2802a0366d4508?sid=0dfb1c3c-2f4c-42a9-8ccd-fa2a4b298c82",
+    live: "https://www.loom.com/share/6201f097125148608c2802a0366d4508?sid=85e4ff99-1266-4647-8c0e-472afdef45b6",
   },
 
   {
