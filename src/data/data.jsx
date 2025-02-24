@@ -1,4 +1,4 @@
-// import Portfolio from "../assets/projects/PortFolio.png";
+
   import ProdAI from "../assets/productivityai.png";
   import ExerciseCounter from "../assets/exercise.png";
   import MaxxedAI from "../assets/maxxedai.png";
