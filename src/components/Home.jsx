@@ -59,8 +59,7 @@ const Home = () => {
             transition={{ duration: 0.5, delay: 0.6 }}
             className="text-gray-400 max-w-[600px] leading-relaxed"
           >
-            I'm a software developer specializing in building exceptional digital experiences.
-            Currently focused on building responsive full-stack web applications.
+            I'm a software developer and my passion lies in crafting efficient, scalable, and user-friendly solutions to tackle real-world problems.
           </motion.p>
 
           <motion.div
