@@ -45,8 +45,8 @@ const About = () => {
           >
             <div className="bg-dark-200/30 backdrop-blur-sm p-6 rounded-2xl border border-white/5">
               <p className="text-gray-300 leading-relaxed">
-                I'm a passionate Full Stack Developer with a strong foundation in both front-end and back-end development.
-                Born and raised in Nigeria, my journey in software development has been driven by a desire to create impactful solutions that make a difference.
+              Raised in Nigeria, my engineering journey has been fueled by a passion for creating impactful solutions 
+                from mobile apps and web applications to AI tools that make a difference.
               </p>
             </div>
 
